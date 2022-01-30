@@ -1,0 +1,109 @@
+.wrapper {
+    display: flex;
+    width: 413px;
+    margin: 0 auto;
+    height: 540px;
+    flex-direction: column;
+    background-color: #F9F9FE;
+}
+
+.title h2, h3 {
+    text-align: center;
+}
+
+.title {
+    margin: 0 auto;
+    height: 150px;
+    width: 100%;
+}
+
+.titleName {
+    font-size: 26px;
+    line-height: 39px;
+    color: #2D2E46;
+}
+
+.titleReg {
+    font-size: 22px;
+    line-height: 33px;
+    color: #2D2E46;
+}
+
+.wrapperForm {
+    height: 300px;
+}
+
+.buttonReg {
+    background: #21268F;
+    border-radius: 30px;
+    color: white;
+    height: 33px;
+    width: 187px;
+    font-size: 16px;
+    border: none;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.buttonReg:hover {
+    background-color: #777bc1;
+}
+
+.buttonCancel {
+    background: #D7D8EF;
+    border-radius: 30px;
+    color: #21268F;
+    height: 36px;
+    width: 124px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.buttonCancel:hover {
+    background-color: #bbbbf5;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #adadd9;
+    background-color: #F9F9FE;
+    outline: 0;
+    color: #2D2E46;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrapperInput input {
+    width: 347px;
+}
+
+.wrapperInput label {
+    width: 100px;
+    display: block;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+    color: #24254A;
+    opacity: 0.5;
+}
+
+.preloader {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    height: 30px;
+}
+
