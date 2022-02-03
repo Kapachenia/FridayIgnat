@@ -12,32 +12,32 @@ export const Header = () => {
     return (
         <nav className={classes.nav}>
 
-            { !isLoggedIn && <div className={classes.item}>
+            {!isLoggedIn && <div className={classes.item}>
                 <NavLink to={Path.LogIn} activeClassName={classes.active} >
                     LogIn
                 </NavLink>
             </div> }
-             { !isLoggedIn && <div className={classes.item}>
+             {!isLoggedIn && <div className={classes.item}>
                 <NavLink to={Path.Registration} activeClassName={classes.active}>
                     Registration
                 </NavLink>
             </div>}
-            { isLoggedIn && <div className={classes.item}>
+            {isLoggedIn && <div className={classes.item}>
                 <NavLink to={Path.Profile} activeClassName={classes.active}>
                     Profile
                 </NavLink>
             </div>}
-            { isLoggedIn && <div className={classes.item}>
+            {isLoggedIn && <div className={classes.item}>
                 <NavLink to={Path.PacksList} activeClassName={classes.active}>
                     PacksList
                 </NavLink>
             </div>}
-            { !isLoggedIn && <div className={classes.item}>
+            {!isLoggedIn && <div className={classes.item}>
                 <NavLink to={Path.ResetPassword} activeClassName={classes.active}>
                     Reset password
                 </NavLink>
             </div>}
-            {  <div className={classes.item}>
+            {!isLoggedIn && <div className={classes.item}>
                 <NavLink to={Path.CreateNewPassword} activeClassName={classes.active}>
                     Create new password
                 </NavLink>

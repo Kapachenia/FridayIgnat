@@ -19,7 +19,7 @@ export const Registration = () => {
 
     const dispatch = useDispatch()
 
-    let history = useHistory()
+    const history = useHistory()
 
     const handleSubmit = () => {
         dispatch(createUserTC(email, password))

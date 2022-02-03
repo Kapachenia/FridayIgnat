@@ -9,6 +9,9 @@ const instans = axios.create({
 
 
 export const loginAPI = {
+    authMe() {
+        return instans.post('auth/me')
+    },
     loginUser(email: string, password: string,) {
         return instans.post('auth/login', {email, password, rememberMe: false})
     }
