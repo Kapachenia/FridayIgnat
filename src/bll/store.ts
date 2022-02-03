@@ -8,10 +8,12 @@ import {error404Reducer} from "./error404Reducer";
 import {forgotReducer} from './forgotReducer';
 import {packsReducer} from "./packsReducer";
 import {paginationFindReducer} from "./paginationFindReducer";
+import {loginReducer} from "./loginReducer";
 
 export type RootStateType = ReturnType<typeof rootReducer>;
 
 const rootReducer = combineReducers({
+    login: loginReducer,
     registration: registrationReducer,
     profile: profileReducer,
     resetPassword: resetPasswordReducer,

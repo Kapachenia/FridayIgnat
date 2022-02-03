@@ -8,7 +8,7 @@ import {CreateNewPassword} from "../CreateNewPassword/CreateNewPassword";
 import {SuperComponents} from "../SuperComponents/SuperComponents";
 import ForgotPassword from '../ForgotPassword/ForgotPassword';
 import {PacksList} from "../PacksList/PacksList";
-import {LogIn} from "../LogIn/logIn";
+import {LogIn} from "../LogIn/Login";
 
 export enum Path {
     LogIn = "/login",
